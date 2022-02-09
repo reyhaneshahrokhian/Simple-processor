@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "G:/VHDL_prj/test/project.xst" -ofn "G:/VHDL_prj/test/project.syr" 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="794" delta="unknown" >"G:/VHDL_prj/test/project.vhd" Line 49: Statement might not cover all choices ; &apos;others&apos; clause recommended
+</msg>
+
+<msg type="error" file="HDLCompiler" num="288" delta="unknown" >"G:/VHDL_prj/test/project.vhd" Line 50: Cannot read from &apos;out&apos; object <arg fmt="%s" index="1">ans</arg> ; use &apos;buffer&apos; or &apos;inout&apos;
+</msg>
+
+<msg type="error" file="HDLCompiler" num="288" delta="unknown" >"G:/VHDL_prj/test/project.vhd" Line 51: Cannot read from &apos;out&apos; object <arg fmt="%s" index="1">ans</arg> ; use &apos;buffer&apos; or &apos;inout&apos;
+</msg>
+
+</messages>
+

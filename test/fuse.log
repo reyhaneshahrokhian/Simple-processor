@@ -1,0 +1,21 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o G:/VHDL_prj/test/project_isim_beh.exe -prj G:/VHDL_prj/test/project_beh.prj work.project 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "G:/VHDL_prj/test/project.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:794 - "G:/VHDL_prj/test/project.vhd" Line 49: Statement might not cover all choices ; 'others' clause recommended
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity project
+ERROR:HDLCompiler:288 - "G:/VHDL_prj/test/project.vhd" Line 50: Cannot read from 'out' object ans ; use 'buffer' or 'inout'
+ERROR:HDLCompiler:288 - "G:/VHDL_prj/test/project.vhd" Line 51: Cannot read from 'out' object ans ; use 'buffer' or 'inout'
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 4 VHDL Units
+Built simulation executable G:/VHDL_prj/test/project_isim_beh.exe
+Fuse Memory Usage: 35752 KB
+Fuse CPU Usage: 577 ms
